@@ -2,6 +2,16 @@
 h2 {
   color: #007765;
   font: normal 900 64px/74px "Roboto", sans-serif;
+  text-align: center;
+}
+h3 {
+  color: #007765;
+  font: bold 24px/28px "Roboto", sans-serif;
+  margin: 10px 0 6px 0;
+}
+p {
+  color: #000;
+  font: normal 32px/37px "Roboto", sans-serif;
 }
 .header {
   background: #007765;
@@ -55,7 +65,6 @@ h2 {
 }
 
 .problem h2 {
-  text-align: center;
   margin: 0 auto;
   padding: 50px 0 30px 0;
 }
@@ -81,4 +90,61 @@ h2 {
   width: 890px;
   margin: 0 auto;
   padding: 130px 0 0 0;
+}
+
+.intro_article {
+  width: 1060px;
+  margin: 0 auto;
+}
+#ppc_logo {
+  padding-right: 35px;
+  float: left;
+}
+
+.team {
+  height: 845px;
+  background-color: #eeeeee;
+}
+
+.team h2 {
+  padding: 50px 0 0 0;
+}
+
+.team .team_text {
+  color: #000000;
+  font: italic 18px/21px "Roboto", sans-serif;
+  padding: 0;
+}
+
+.team_line1 {
+  margin: 0 auto;
+  width: 1080px;
+  height: 300px;
+}
+
+.team_line2 {
+  margin: 0 auto;
+  width: 1080px;
+  height: 150px;
+}
+.team_members {
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+
+.footer {
+  height: 175px;
+  background-color: #333333;
+  text-align: center;
+}
+
+.footer .footer_text {
+  color: white;
+  text-align: center;
+  font: normal 18px/21px "Roboto", sans-serif;
+  width: 540px;
+  margin: 0 auto;
+  padding-top: 55px;
+
 }
