@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+h2 {
+  color: #007765;
+  font: normal 900 64px/74px "Roboto", sans-serif;
+}
+.header {
+  background: #007765;
+  height: 84px;
+}
+
+.header_center {
+  margin: 0 auto;
+  width: 1220px;
+  height: 84px;
+}
+
+.logo {
+  width: 183px;
+  height: 45px;
+  padding: 20px 0 20px 55px;
+  float: left;
+}
+
+.menu {
+  padding: 27px 0 20px 740px;
+}
+
+.menu a {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.jumbo {
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/jumbo_bg.png");
+  margin: 0 auto;
+}
+
+.jumbo h1 {
+  font: normal 72px "Roboto", sans-serif;
+  color: white;
+  margin: 0 auto;
+  padding: 160px 0;
+  text-align: center;
+}
+
+.problem {
+  margin: 0 auto;
+  height: 700px;
+  background-color: #eeeeee;
+}
+
+.problem h2 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0 30px 0;
+}
+
+.problem p {
+  text-align: left;
+  width: 1100px;
+  margin: 0 auto;
+  color: #000;
+  font: normal 32px/37px "Roboto", sans-serif;
+}
+
+.hero {
+  background-image: url("../img/hero_bg.png");
+  height: 480px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero_text {
+  color: white;
+  font: italic 1000 48px/56px "Roboto", sans-serif;
+  width: 890px;
+  margin: 0 auto;
+  padding: 130px 0 0 0;
+}
