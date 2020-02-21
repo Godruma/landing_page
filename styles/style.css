@@ -79,7 +79,9 @@ p {
 
 .hero {
   background-image: url("../img/hero_bg.png");
-  height: 480px;
+  background-position: center center;
+  background-size: cover;
+  padding: 129px 0 128px 0;
   margin: 0 auto;
   text-align: center;
 }
@@ -87,9 +89,11 @@ p {
 .hero_text {
   color: white;
   font: italic 1000 48px/56px "Roboto", sans-serif;
-  width: 890px;
-  margin: 0 auto;
-  padding: 130px 0 0 0;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-sizing: border-box;
 }
 
 .intro_article {
@@ -104,6 +108,9 @@ p {
 .team {
   height: 845px;
   background-color: #eeeeee;
+  text-align: center;
+
+  margin: 0 auto;
 }
 
 .team h2 {
@@ -116,21 +123,18 @@ p {
   padding: 0;
 }
 
-.team_line1 {
+.members {
+  width: 1108px;
   margin: 0 auto;
-  width: 1080px;
-  height: 300px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.team_line2 {
-  margin: 0 auto;
-  width: 1080px;
-  height: 150px;
-}
 .team_members {
-  float: left;
-  text-align: center;
-  width: 33%;
+  flex-basis: 33%;
+  margin-bottom: 30px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .footer {
@@ -146,5 +150,4 @@ p {
   width: 540px;
   margin: 0 auto;
   padding-top: 55px;
-
 }
